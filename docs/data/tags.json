@@ -1,0 +1,10 @@
+[
+  {
+    "name": "rust",
+    "icon_path": "/images/rust.svg"
+  },
+  {
+    "name": "bevy",
+    "icon_path": "/images/bevy.svg"
+  }
+]

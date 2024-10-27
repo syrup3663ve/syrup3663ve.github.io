@@ -1,0 +1,14 @@
+[
+  {
+    "name": "プログラミング",
+    "icon_path": "/images/code.svg"
+  },
+  {
+    "name": "日常",
+    "icon_path": "/images/diary.svg"
+  },
+  {
+    "name": "ゲーム",
+    "icon_path": "/images/gamepad.svg"
+  }
+]

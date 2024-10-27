@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <title>コケコッコーダー</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="/tailwind.css">
+    <link rel="icon"
+          href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐔</text></svg>">
+<link rel="stylesheet" href="/tailwind.css">
+<link rel="preload" href="/./assets/dioxus/blog-app_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
+            <link rel="preload" href="/./assets/dioxus/blog-app.js" as="script">
+            </head>
+
+<body>
+<div id="main"></div>
+<script>
+            // We can't use a module script here because we need to start the script immediately when streaming
+            import("/./assets/dioxus/blog-app.js").then(
+                ({ default: init }) => {
+                init("/./assets/dioxus/blog-app_bg.wasm").then((wasm) => {
+                    if (wasm.__wbindgen_start == undefined) {
+                    wasm.main();
+                    }
+                });
+                }
+            );
+            </script>
+            
+            </body>
+
+</html>
