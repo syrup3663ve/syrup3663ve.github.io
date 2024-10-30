@@ -4,6 +4,10 @@
     "icon_path": "/images/rust.svg"
   },
   {
+    "name": "dioxus",
+    "icon_path": ""
+  },
+  {
     "name": "bevy",
     "icon_path": "/images/bevy.svg"
   }
